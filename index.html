@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Нина Кускова — ИИ-специалист по автоматизации. Создаю ИИ-агентов на базе Claude Code, которые экономят 2–5 часов в неделю: сбор данных, отчёты, тексты." />
+  <meta name="theme-color" content="#0EA5A4" />
+  <title>Time Saver AI — ИИ-агенты на базе Claude Code</title>
+
+  <!-- Favicon (убирает 404 в консоли) -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Time Saver AI — ИИ-агенты, которые экономят ваше время" />
+  <meta property="og:description" content="ИИ-агенты на базе Claude Code для малого бизнеса, фрилансеров и экспертов. Сначала прототип, потом доработка по вашей обратной связи." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og-cover.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="ru_RU" />
+
+  <!-- Twitter / X fallback -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Time Saver AI — ИИ-агенты, которые экономят ваше время" />
+  <meta name="twitter:description" content="ИИ-агенты на базе Claude Code. Сначала прототип, потом доработка по вашей обратной связи." />
+  <meta name="twitter:image" content="assets/og-cover.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org (JSON-LD) -->
+  <!-- ВАЖНО: Перед запуском заменить 'time-saver-ai.ru' на реальный домен в полях url, @id и logo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://time-saver-ai.ru/#organization",
+        "name": "Time Saver AI",
+        "alternateName": "ИИ-агенты Time Saver AI",
+        "url": "https://time-saver-ai.ru/",
+        "logo": "https://time-saver-ai.ru/assets/og-cover.svg",
+        "description": "Создаю ИИ-агентов на базе Claude Code для малого бизнеса, фрилансеров и экспертов. Сбор данных, отчёты, работа с текстами.",
+        "founder": {
+          "@type": "Person",
+          "name": "Нина Кускова",
+          "jobTitle": "AI-специалист по автоматизации",
+          "email": "kuskova56@mail.ru"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "email": "kuskova56@mail.ru",
+          "availableLanguage": ["Russian"],
+          "url": "https://t.me/Nika256"
+        },
+        "sameAs": [
+          "https://t.me/Nika256"
+        ]
+      },
+      {
+        "@type": "Service",
+        "serviceType": "AI-автоматизация бизнес-процессов",
+        "provider": { "@id": "https://time-saver-ai.ru/#organization" },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Россия"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Услуги по AI-автоматизации",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Сбор и анализ данных",
+                "description": "ИИ-агент собирает информацию из нужных источников, структурирует и отдаёт готовый отчёт."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Работа с текстами",
+                "description": "Генерация, редактирование, рерайт, суммаризация в нужном формате и стиле."
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Автоматизация отчётов и рассылок",
+                "description": "ИИ-агент готовит ежедневные и еженедельные отчёты, автоматические письма клиентам и партнёрам."
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ ШАПКА ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__mark">●</span>
+        <span class="logo__text">Time Saver AI</span>
+      </a>
+      <nav class="nav">
+        <a href="https://t.me/Nika256" target="_blank" rel="noopener" class="nav__link nav__link--telegram">
+          Telegram
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ СЕКЦИЯ 1: HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Верните себе время.<br />
+            Я создам ИИ-агента, который возьмёт на себя повседневные задачи — а вы сфокусируетесь на главном
+          </h1>
+          <p class="hero__subtitle">
+            Автоматизирую задачи с помощью Claude&nbsp;Code: сбор данных, отчёты, работа с текстами.
+            Сначала прототип, потом доработка по вашей обратной связи.
+          </p>
+          <div class="hero__cta">
+            <a href="https://t.me/Nika256" target="_blank" rel="noopener" class="btn btn--primary">
+              Написать в Telegram
+            </a>
+            <a href="https://max.vk.com/your_max" target="_blank" rel="noopener" class="btn btn--secondary">
+              Связаться в MAX
+            </a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__network" aria-hidden="true">
+            <svg class="network-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+              <!-- Connections (lines between nodes) -->
+              <g class="network-connections" stroke="#0EA5A4" stroke-width="1.5" fill="none" opacity="0.4">
+                <line x1="200" y1="80" x2="120" y2="160" />
+                <line x1="200" y1="80" x2="280" y2="160" />
+                <line x1="200" y1="80" x2="200" y2="200" />
+                <line x1="120" y1="160" x2="80" y2="260" />
+                <line x1="120" y1="160" x2="200" y2="200" />
+                <line x1="120" y1="160" x2="180" y2="300" />
+                <line x1="280" y1="160" x2="200" y2="200" />
+                <line x1="280" y1="160" x2="320" y2="260" />
+                <line x1="280" y1="160" x2="220" y2="300" />
+                <line x1="200" y1="200" x2="180" y2="300" />
+                <line x1="200" y1="200" x2="220" y2="300" />
+                <line x1="80" y1="260" x2="180" y2="300" />
+                <line x1="320" y1="260" x2="220" y2="300" />
+              </g>
+
+              <!-- Animated data pulses on connections -->
+              <g class="network-pulses" fill="#0EA5A4">
+                <circle r="3" class="pulse pulse--1">
+                  <animateMotion dur="3s" repeatCount="indefinite" path="M200,80 L120,160" />
+                </circle>
+                <circle r="3" class="pulse pulse--2">
+                  <animateMotion dur="3.5s" repeatCount="indefinite" path="M280,160 L200,200" />
+                </circle>
+                <circle r="3" class="pulse pulse--3">
+                  <animateMotion dur="4s" repeatCount="indefinite" path="M200,200 L180,300" />
+                </circle>
+                <circle r="3" class="pulse pulse--4">
+                  <animateMotion dur="3.2s" repeatCount="indefinite" path="M120,160 L200,200" />
+                </circle>
+                <circle r="3" class="pulse pulse--5">
+                  <animateMotion dur="3.8s" repeatCount="indefinite" path="M280,160 L220,300" />
+                </circle>
+              </g>
+
+              <!-- Nodes -->
+              <g class="network-nodes">
+                <!-- Central node (largest, with glow) -->
+                <circle cx="200" cy="200" r="14" fill="#0EA5A4" />
+                <circle cx="200" cy="200" r="22" fill="none" stroke="#0EA5A4" stroke-width="1.5" opacity="0.3" class="node-glow" />
+                <circle cx="200" cy="200" r="32" fill="none" stroke="#0EA5A4" stroke-width="1" opacity="0.15" class="node-glow node-glow--outer" />
+
+                <!-- Top node -->
+                <circle cx="200" cy="80" r="9" fill="#0EA5A4" opacity="0.9" />
+
+                <!-- Side nodes -->
+                <circle cx="120" cy="160" r="10" fill="#0EA5A4" opacity="0.85" />
+                <circle cx="280" cy="160" r="10" fill="#0EA5A4" opacity="0.85" />
+
+                <!-- Lower side nodes -->
+                <circle cx="80" cy="260" r="8" fill="#0EA5A4" opacity="0.7" />
+                <circle cx="320" cy="260" r="8" fill="#0EA5A4" opacity="0.7" />
+
+                <!-- Bottom nodes -->
+                <circle cx="180" cy="300" r="9" fill="#0EA5A4" opacity="0.8" />
+                <circle cx="220" cy="300" r="9" fill="#0EA5A4" opacity="0.8" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ СЕКЦИЯ 2: ЧТО Я ДЕЛАЮ ============ -->
+    <section class="services" id="services">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Что я делаю</h2>
+          <p class="section-subtitle">
+            Подключаю ИИ-агента к вашей рутине. Вы получаете готовый результат,
+            а не «инструмент, с которым нужно разбираться».
+          </p>
+        </header>
+        <div class="services__grid">
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <h3 class="card__title">Экономия 2–5 часов в неделю</h3>
+            <p class="card__text">
+              Агент забирает сбор данных, отчёты и рутинные тексты. На примере кейса
+              cooking-researcher: подбор рецепта и план на неделю — за 10 минут
+              вместо двух часов.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="9" y1="13" x2="15" y2="13"></line>
+                <line x1="9" y1="17" x2="15" y2="17"></line>
+              </svg>
+            </div>
+            <h3 class="card__title">Тексты в нужном формате</h3>
+            <p class="card__text">
+              Генерация, редактирование, рерайт, суммаризация. Не «шаблон под копирку»,
+              а текст под ваш тон: деловой, разговорный, экспертный. Без штампов «в
+              современном мире» и «революционных решений».
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3v18h18"></path>
+                <path d="M7 14l4-4 4 4 6-6"></path>
+              </svg>
+            </div>
+            <h3 class="card__title">Актуальные модели без переплат</h3>
+            <p class="card__text">
+              Работаю на Claude Opus 4 и Sonnet 4 через Claude Code. Подбираю модель
+              под задачу: Sonnet — для рутины, Opus — для сложных рассуждений. Вы
+              платите за результат, а не за «топовый тариф по привычке».
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+              </svg>
+            </div>
+            <h3 class="card__title">Прозрачный процесс</h3>
+            <p class="card__text">
+              Видите, что делает агент на каждом шаге. Согласовываем промежуточные
+              результаты, дорабатываем по вашей обратной связи. Никаких «магических
+              коробок» — только понятная логика и итерации.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ СЕКЦИЯ: КЕЙСЫ / ПРИМЕРЫ РАБОТ ============ -->
+    <section class="cases" id="cases">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title">Реальные кейсы автоматизации</h2>
+          <p class="section-subtitle">
+            Примеры того, как ИИ-агенты решают конкретные задачи с учётом ваших ограничений и нормативов.
+          </p>
+        </header>
+
+        <div class="cases__grid">
+          <!-- Кейс 1: Планировщик питания -->
+          <article class="case-card">
+            <div class="case-card__header">
+              <span class="case-card__tag">AI-агент</span>
+              <h3 class="case-card__title">Умный планировщик питания</h3>
+            </div>
+            <p class="case-card__description">
+              <strong>Задача:</strong> составить меню на неделю с учётом постных дней (среда, пятница), строгих диетологических норм (ВОЗ/Роспотребнадзор) и ограниченного бюджета.
+            </p>
+            <ul class="case-card__results">
+              <li>✅ <strong>Бюджетный вариант:</strong> ~4 580 ₽, 1886 ккал/день, 5 приёмов пищи (сбалансированные перекусы).</li>
+              <li>✅ <strong>Премиум вариант:</strong> ~6 330 ₽, 1999 ккал/день, расширенный набор продуктов (рыба, говядина, орехи).</li>
+              <li>✅ <strong>Результат:</strong> два готовых файла (JSON для систем, Markdown для человека) с пошаговыми рецептами и точным списком покупок.</li>
+            </ul>
+            <!-- Блок со скриншотами -->
+            <div class="case-card__gallery">
+              <div class="case-card__gallery-row">
+                <img src="assets/case-budget-header.png" alt="Бюджетный вариант - параметры" class="case-card__img">
+                <img src="assets/case-budget-day.png" alt="Бюджетный вариант - меню понедельника" class="case-card__img">
+              </div>
+              <div class="case-card__gallery-row">
+                <img src="assets/case-premium-header.png" alt="Премиум вариант - параметры" class="case-card__img">
+                <img src="assets/case-premium-day.png" alt="Премиум вариант - меню понедельника" class="case-card__img">
+              </div>
+            </div>
+            <div class="case-card__tech">
+              <span>Claude Code</span>
+              <span>JSON/Markdown генерация</span>
+              <span>Анализ ограничений</span>
+            </div>
+          </article>
+
+          <!-- Заглушка для будущего кейса (показывает, что это развивающийся портфель) -->
+          <article class="case-card case-card--placeholder">
+            <div class="case-card__header">
+              <span class="case-card__tag">В разработке</span>
+              <h3 class="case-card__title">Автоматизация SEO-аудита</h3>
+            </div>
+            <p class="case-card__description">
+              Мультиагентная система для анализа структуры сайта, поиска битых ссылок и формирования отчёта для поисковых систем (E-E-A-T).
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ СЕКЦИЯ 4: ОБО МНЕ / АВТОР ============ -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__visual">
+          <div class="about__photo" aria-hidden="true">
+            <img src="assets/author.jpg" alt="Нина Кускова - AI-специалист по автоматизации" class="about__photo-img" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="about__content">
+          <span class="about__label">Автор проекта</span>
+          <h2 class="about__title">Нина Кускова</h2>
+          <p class="about__role">AI-специалист по автоматизации на базе Claude Code</p>
+
+          <p class="about__bio">
+            Экономист и бухгалтер с опытом работы в финансах. Два года занимаюсь
+            автоматизацией и созданием ИИ-агентов для бизнеса. Прошла углублённый
+            курс по Claude Code и мультиагентным системам. Понимаю, как устроены
+            бизнес-процессы изнутри: от учёта до отчётности. Подхожу к задачам
+            практично — сначала проверить на реальных данных, потом масштабировать.
+          </p>
+
+          <h3 class="about__approach-title">Что я делаю на практике</h3>
+          <ul class="about__list">
+            <li>
+              <span class="about__check">✓</span>
+              <div>
+                <strong>ИИ-агенты под задачу</strong> — не шаблонные боты, а инструмент
+                под ваш процесс. Работаю над проектами автоматизации для малого бизнеса
+                и фрилансеров.
+              </div>
+            </li>
+            <li>
+              <span class="about__check">✓</span>
+              <div>
+                <strong>Claude Code как основа</strong> — работаю с актуальными моделями
+                Claude, не с устаревшими API. Подбираю модель под задачу, чтобы
+                не переплачивать за токены.
+              </div>
+            </li>
+            <li>
+              <span class="about__check">✓</span>
+              <div>
+                <strong>Прозрачно и итерациями</strong> — показываю процесс, согласовываю
+                каждый шаг. Сначала прототип, потом доработка по вашей обратной связи.
+              </div>
+            </li>
+          </ul>
+
+          <h3 class="about__approach-title">Стек и инструменты</h3>
+          <p class="about__tools">
+            Claude Code · Claude Opus 4 / Sonnet 4 · Anthropic API ·
+            Python · Markdown · Git
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ СЕКЦИЯ 5: CTA + КОНТАКТЫ ============ -->
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta__inner">
+          <h2 class="cta__title">Ваше время дорого. Верните его для жизни и развития главного</h2>
+          <p class="cta__subtitle">
+            Напишите в Telegram — отвечу в течение дня. Сначала 15-минутный созвон,
+            чтобы понять задачу. Бесплатно, без обязательств.
+          </p>
+
+          <div class="cta__buttons">
+            <a href="https://t.me/Nika256" target="_blank" rel="noopener" class="btn btn--white">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+              </svg>
+              Написать в Telegram
+            </a>
+            <a href="mailto:kuskova56@mail.ru" class="btn btn--ghost">
+              kuskova56@mail.ru
+            </a>
+          </div>
+
+          <p class="cta__note">
+            Или MAX — ссылка пришлю в Telegram. Не люблю формы на сайтах:
+            они теряются в спаме. Прямой контакт — быстрее.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ ПОДВАЛ ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__meta">
+        © 2026 Time Saver AI · Нина · Тексты подготовлены с помощью ИИ и отредактированы человеком
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

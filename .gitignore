@@ -9,6 +9,13 @@ desktop.ini
 *.swp
 *.swo
 
+# Локальные конфиги приложений (не нужны читателям репо)
+.obsidian/
+.playwright-mcp/
+
+# Персональные настройки Claude Code
+.claude/settings.local.json
+
 # Python
 __pycache__/
 *.py[cod]

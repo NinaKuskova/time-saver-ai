@@ -1,0 +1,2870 @@
+{
+  "meta": {
+    "version": "3.0 (точный пересчёт по прямым ценам ₽/кг и ₽/шт)",
+    "version_description": "Premium-версия: 4 приёма пищи в день (завтрак, обед, ужин, перекус), без полдников. Качественные/дорогие продукты.",
+    "goal": "здоровое питание (premium)",
+    "period_days": 7,
+    "daily_norm_kcal": 2000,
+    "kcal_target_range": [
+      1900,
+      2000
+    ],
+    "budget_rub_target": 6357,
+    "budget_rub_range": [
+      6000,
+      6700
+    ],
+    "constraints": [
+      "4 приёма пищи в день (завтрак, перекус, обед, ужин) — БЕЗ полдника",
+      "среда — постный день",
+      "пятница — постный день",
+      "остальные 5 дней — обычное питание",
+      "Premium-продукты: говядина, треска, сёмга/форель, авокадо, миндаль, грецкие орехи, фета, пармезан, греческий йогурт, зернёный творог, оливковое масло, киноа, булгур, голубика, малина, манго"
+    ],
+    "added_at": "2026-08-04",
+    "recalculated_at": "2026-08-16",
+    "recalc_script": "reports/recalc_premium_v3.py",
+    "budget_actual_rub_meals": 4991.44,
+    "budget_actual_rub_shopping": 4991.44
+  },
+  "days": [
+    {
+      "day": "Понедельник",
+      "is_fasting": false,
+      "date": "2026-08-04",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Сырники из зернёного творога с голубикой",
+          "isLenten": false,
+          "recipe": "Зернёный творог смешать с яйцом, мукой и ванилью. Сформовать сырники, обжарить на сливочном масле. Подавать со свежей голубикой и греческим йогуртом.",
+          "ingredients": [
+            {
+              "product": "Зернёный творог 5%",
+              "qty_gram": 180,
+              "kcal_per_100g": 121,
+              "p_per_100g": 17.0,
+              "f_per_100g": 5.0,
+              "c_per_100g": 1.8,
+              "price_rub": 85,
+              "cost_rub": 84.6
+            },
+            {
+              "product": "Яйцо куриное",
+              "qty_gram": 50,
+              "kcal_per_100g": 157,
+              "p_per_100g": 12.7,
+              "f_per_100g": 11.5,
+              "c_per_100g": 0.7,
+              "price_rub": 6,
+              "cost_rub": 10.0
+            },
+            {
+              "product": "Мука пшеничная",
+              "qty_gram": 25,
+              "kcal_per_100g": 364,
+              "p_per_100g": 9.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 76.0,
+              "price_rub": 4,
+              "cost_rub": 1.25
+            },
+            {
+              "product": "Голубика свежая",
+              "qty_gram": 60,
+              "kcal_per_100g": 44,
+              "p_per_100g": 0.7,
+              "f_per_100g": 0.4,
+              "c_per_100g": 10.0,
+              "price_rub": 60,
+              "cost_rub": 60.0
+            },
+            {
+              "product": "Греческий йогурт 2%",
+              "qty_gram": 80,
+              "kcal_per_100g": 59,
+              "p_per_100g": 10.0,
+              "f_per_100g": 2.0,
+              "c_per_100g": 3.5,
+              "price_rub": 28,
+              "cost_rub": 28.0
+            },
+            {
+              "product": "Масло сливочное 82.5%",
+              "qty_gram": 10,
+              "kcal_per_100g": 717,
+              "p_per_100g": 0.5,
+              "f_per_100g": 81.1,
+              "c_per_100g": 1.8,
+              "price_rub": 9,
+              "cost_rub": 9.0
+            }
+          ],
+          "kcal_per_100g": 195,
+          "portion_gram": 320,
+          "kcal_portion": 530,
+          "price_rub": 192.85
+        },
+        {
+          "type": "Перекус",
+          "name": "Греческий йогурт с миндалём и малиной",
+          "isLenten": false,
+          "recipe": "В пиалу выложить греческий йогурт, сверху — свежую малину и обжаренный миндаль. Подавать охлаждённым.",
+          "ingredients": [
+            {
+              "product": "Греческий йогурт 2%",
+              "qty_gram": 150,
+              "kcal_per_100g": 59,
+              "p_per_100g": 10.0,
+              "f_per_100g": 2.0,
+              "c_per_100g": 3.5,
+              "price_rub": 52,
+              "cost_rub": 52.5
+            },
+            {
+              "product": "Миндаль жареный",
+              "qty_gram": 20,
+              "kcal_per_100g": 609,
+              "p_per_100g": 18.6,
+              "f_per_100g": 53.7,
+              "c_per_100g": 16.2,
+              "price_rub": 35,
+              "cost_rub": 36.0
+            },
+            {
+              "product": "Малина свежая",
+              "qty_gram": 50,
+              "kcal_per_100g": 46,
+              "p_per_100g": 0.8,
+              "f_per_100g": 0.5,
+              "c_per_100g": 8.3,
+              "price_rub": 55,
+              "cost_rub": 55.0
+            }
+          ],
+          "kcal_per_100g": 145,
+          "portion_gram": 220,
+          "kcal_portion": 220,
+          "price_rub": 143.5
+        },
+        {
+          "type": "Обед",
+          "name": "Говяжий стейк с булгуром и салатом из печёных овощей",
+          "isLenten": false,
+          "recipe": "Стейк из говядины посолить, поперчить, обжарить на оливковом масле 3 минуты с каждой стороны. Булгур отварить. Подавать с салатом из печёного перца и красного лука, заправленным оливковым маслом.",
+          "ingredients": [
+            {
+              "product": "Говядина (стейк)",
+              "qty_gram": 180,
+              "kcal_per_100g": 250,
+              "p_per_100g": 26.0,
+              "f_per_100g": 17.0,
+              "c_per_100g": 0.0,
+              "price_rub": 165,
+              "cost_rub": 234.0
+            },
+            {
+              "product": "Булгур",
+              "qty_gram": 70,
+              "kcal_per_100g": 342,
+              "p_per_100g": 12.3,
+              "f_per_100g": 1.3,
+              "c_per_100g": 70.0,
+              "price_rub": 22,
+              "cost_rub": 22.4
+            },
+            {
+              "product": "Перец болгарский",
+              "qty_gram": 120,
+              "kcal_per_100g": 27,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.3,
+              "c_per_100g": 5.7,
+              "price_rub": 30,
+              "cost_rub": 30.0
+            },
+            {
+              "product": "Лук красный",
+              "qty_gram": 30,
+              "kcal_per_100g": 42,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 9.5,
+              "price_rub": 8,
+              "cost_rub": 8.1
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 15,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 25,
+              "cost_rub": 45
+            },
+            {
+              "product": "Зелень (руккола)",
+              "qty_gram": 20,
+              "kcal_per_100g": 25,
+              "p_per_100g": 2.6,
+              "f_per_100g": 0.7,
+              "c_per_100g": 2.1,
+              "price_rub": 28,
+              "cost_rub": 28.0
+            }
+          ],
+          "kcal_per_100g": 175,
+          "portion_gram": 430,
+          "kcal_portion": 750,
+          "price_rub": 367.5
+        },
+        {
+          "type": "Ужин",
+          "name": "Сёмга слабосолёная с киноа и авокадо",
+          "isLenten": false,
+          "recipe": "Киноа отварить 15 минут. На тарелку выложить киноа, ломтики слабосолёной сёмги, половинку авокадо и сбрызнуть лимонным соком. Заправить оливковым маслом.",
+          "ingredients": [
+            {
+              "product": "Сёмга слабосолёная",
+              "qty_gram": 100,
+              "kcal_per_100g": 208,
+              "p_per_100g": 22.0,
+              "f_per_100g": 13.0,
+              "c_per_100g": 0.0,
+              "price_rub": 195,
+              "cost_rub": 195.0
+            },
+            {
+              "product": "Киноа",
+              "qty_gram": 60,
+              "kcal_per_100g": 368,
+              "p_per_100g": 14.1,
+              "f_per_100g": 6.1,
+              "c_per_100g": 64.2,
+              "price_rub": 32,
+              "cost_rub": 32.4
+            },
+            {
+              "product": "Авокадо",
+              "qty_gram": 80,
+              "kcal_per_100g": 160,
+              "p_per_100g": 2.0,
+              "f_per_100g": 14.7,
+              "c_per_100g": 8.5,
+              "price_rub": 70,
+              "cost_rub": 30.0
+            },
+            {
+              "product": "Лимон",
+              "qty_gram": 15,
+              "kcal_per_100g": 29,
+              "p_per_100g": 0.9,
+              "f_per_100g": 0.3,
+              "c_per_100g": 9.2,
+              "price_rub": 5,
+              "cost_rub": 2.5
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 5,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 9,
+              "cost_rub": 15
+            },
+            {
+              "product": "Микрозелень",
+              "qty_gram": 10,
+              "kcal_per_100g": 24,
+              "p_per_100g": 2.0,
+              "f_per_100g": 0.5,
+              "c_per_100g": 2.0,
+              "price_rub": 18,
+              "cost_rub": 18.0
+            }
+          ],
+          "kcal_per_100g": 215,
+          "portion_gram": 270,
+          "kcal_portion": 580,
+          "price_rub": 292.9
+        }
+      ],
+      "total_kcal": 2080,
+      "deviation_percent": 4.0,
+      "total_price_rub": 996.75
+    },
+    {
+      "day": "Вторник",
+      "is_fasting": false,
+      "date": "2026-08-05",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Авокадо-тост с яйцом-пашот и пармезаном",
+          "isLenten": false,
+          "recipe": "Хлеб подсушить в тостере, намазать размятым авокадо. Сверху выложить яйцо-пашот, посыпать стружкой пармезана и чёрным перцем.",
+          "ingredients": [
+            {
+              "product": "Хлеб цельнозерновой",
+              "qty_gram": 70,
+              "kcal_per_100g": 247,
+              "p_per_100g": 9.0,
+              "f_per_100g": 3.4,
+              "c_per_100g": 41.0,
+              "price_rub": 22,
+              "cost_rub": 15.4
+            },
+            {
+              "product": "Авокадо",
+              "qty_gram": 80,
+              "kcal_per_100g": 160,
+              "p_per_100g": 2.0,
+              "f_per_100g": 14.7,
+              "c_per_100g": 8.5,
+              "price_rub": 70,
+              "cost_rub": 30.0
+            },
+            {
+              "product": "Яйцо куриное",
+              "qty_gram": 60,
+              "kcal_per_100g": 157,
+              "p_per_100g": 12.7,
+              "f_per_100g": 11.5,
+              "c_per_100g": 0.7,
+              "price_rub": 8,
+              "cost_rub": 12.0
+            },
+            {
+              "product": "Пармезан",
+              "qty_gram": 10,
+              "kcal_per_100g": 392,
+              "p_per_100g": 35.0,
+              "f_per_100g": 25.0,
+              "c_per_100g": 0.0,
+              "price_rub": 30,
+              "cost_rub": 30.0
+            }
+          ],
+          "kcal_per_100g": 240,
+          "portion_gram": 220,
+          "kcal_portion": 530,
+          "price_rub": 87.4
+        },
+        {
+          "type": "Перекус",
+          "name": "Груша с грецкими орехами и мёдом",
+          "isLenten": false,
+          "recipe": "Грушу нарезать дольками, посыпать дроблёными грецкими орехами и полить жидким мёдом. Сбрызнуть лимонным соком.",
+          "ingredients": [
+            {
+              "product": "Груша",
+              "qty_gram": 180,
+              "kcal_per_100g": 47,
+              "p_per_100g": 0.4,
+              "f_per_100g": 0.3,
+              "c_per_100g": 11.4,
+              "price_rub": 40,
+              "cost_rub": 39.6
+            },
+            {
+              "product": "Грецкие орехи",
+              "qty_gram": 20,
+              "kcal_per_100g": 654,
+              "p_per_100g": 15.2,
+              "f_per_100g": 65.2,
+              "c_per_100g": 13.7,
+              "price_rub": 32,
+              "cost_rub": 32.0
+            },
+            {
+              "product": "Мёд",
+              "qty_gram": 8,
+              "kcal_per_100g": 304,
+              "p_per_100g": 0.3,
+              "f_per_100g": 0.0,
+              "c_per_100g": 82.4,
+              "price_rub": 7,
+              "cost_rub": 7.2
+            }
+          ],
+          "kcal_per_100g": 130,
+          "portion_gram": 208,
+          "kcal_portion": 270,
+          "price_rub": 78.8
+        },
+        {
+          "type": "Обед",
+          "name": "Треска запечённая с томатами и фетой",
+          "isLenten": false,
+          "recipe": "Филе трески выложить на противень, добавить помидоры черри, оливки, фету и каперсы. Запекать 25 минут при 200°C. Подавать с отварным рисом басмати.",
+          "ingredients": [
+            {
+              "product": "Треска (филе)",
+              "qty_gram": 200,
+              "kcal_per_100g": 82,
+              "p_per_100g": 17.9,
+              "f_per_100g": 0.7,
+              "c_per_100g": 0.0,
+              "price_rub": 175,
+              "cost_rub": 175.0
+            },
+            {
+              "product": "Помидоры черри",
+              "qty_gram": 120,
+              "kcal_per_100g": 18,
+              "p_per_100g": 0.9,
+              "f_per_100g": 0.2,
+              "c_per_100g": 2.6,
+              "price_rub": 38,
+              "cost_rub": 38.4
+            },
+            {
+              "product": "Фета",
+              "qty_gram": 40,
+              "kcal_per_100g": 264,
+              "p_per_100g": 14.2,
+              "f_per_100g": 21.3,
+              "c_per_100g": 4.1,
+              "price_rub": 55,
+              "cost_rub": 55.2
+            },
+            {
+              "product": "Оливки",
+              "qty_gram": 20,
+              "kcal_per_100g": 115,
+              "p_per_100g": 0.8,
+              "f_per_100g": 10.7,
+              "c_per_100g": 6.3,
+              "price_rub": 18,
+              "cost_rub": 18.0
+            },
+            {
+              "product": "Каперсы",
+              "qty_gram": 10,
+              "kcal_per_100g": 23,
+              "p_per_100g": 2.4,
+              "f_per_100g": 0.9,
+              "c_per_100g": 4.9,
+              "price_rub": 12,
+              "cost_rub": 12.0
+            },
+            {
+              "product": "Рис басмати",
+              "qty_gram": 70,
+              "kcal_per_100g": 350,
+              "p_per_100g": 7.0,
+              "f_per_100g": 0.9,
+              "c_per_100g": 78.0,
+              "price_rub": 18,
+              "cost_rub": 17.5
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 10,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 17,
+              "cost_rub": 30
+            }
+          ],
+          "kcal_per_100g": 135,
+          "portion_gram": 470,
+          "kcal_portion": 635,
+          "price_rub": 346.1
+        },
+        {
+          "type": "Ужин",
+          "name": "Тёплый салат с говяжьей печенью и гранатом",
+          "isLenten": false,
+          "recipe": "Говяжью печень нарезать и обжарить на оливковом масле с луком 5 минут. На микс-салат выложить печень, зёрна граната, тыквенные семечки. Заправить оливковым маслом и бальзамиком.",
+          "ingredients": [
+            {
+              "product": "Говяжья печень",
+              "qty_gram": 130,
+              "kcal_per_100g": 135,
+              "p_per_100g": 19.2,
+              "f_per_100g": 3.7,
+              "c_per_100g": 4.0,
+              "price_rub": 95,
+              "cost_rub": 91.0
+            },
+            {
+              "product": "Микс салат",
+              "qty_gram": 60,
+              "kcal_per_100g": 18,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 2.0,
+              "price_rub": 35,
+              "cost_rub": 36.0
+            },
+            {
+              "product": "Гранат (зёрна)",
+              "qty_gram": 40,
+              "kcal_per_100g": 83,
+              "p_per_100g": 1.7,
+              "f_per_100g": 1.2,
+              "c_per_100g": 18.7,
+              "price_rub": 40,
+              "cost_rub": 9.14
+            },
+            {
+              "product": "Тыквенные семечки",
+              "qty_gram": 10,
+              "kcal_per_100g": 559,
+              "p_per_100g": 24.5,
+              "f_per_100g": 49.0,
+              "c_per_100g": 10.7,
+              "price_rub": 15,
+              "cost_rub": 15.0
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 30,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 3,
+              "cost_rub": 1.2
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 10,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 17,
+              "cost_rub": 30
+            },
+            {
+              "product": "Бальзамический уксус",
+              "qty_gram": 5,
+              "kcal_per_100g": 88,
+              "p_per_100g": 0.6,
+              "f_per_100g": 0.0,
+              "c_per_100g": 17.0,
+              "price_rub": 12,
+              "cost_rub": 12.0
+            }
+          ],
+          "kcal_per_100g": 165,
+          "portion_gram": 285,
+          "kcal_portion": 470,
+          "price_rub": 194.34
+        }
+      ],
+      "total_kcal": 1905,
+      "deviation_percent": -4.8,
+      "total_price_rub": 706.64
+    },
+    {
+      "day": "Среда",
+      "is_fasting": true,
+      "date": "2026-08-06",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Овсянка на воде с манго и грецкими орехами (постная)",
+          "isLenten": true,
+          "recipe": "Овсяные хлопья сварить на воде с щепоткой соли. Выложить в миску, добавить кубики свежего манго и дроблёные грецкие орехи. Полить кленовым сиропом.",
+          "ingredients": [
+            {
+              "product": "Овсяные хлопья",
+              "qty_gram": 80,
+              "kcal_per_100g": 366,
+              "p_per_100g": 11.9,
+              "f_per_100g": 7.2,
+              "c_per_100g": 69.3,
+              "price_rub": 14,
+              "cost_rub": 4.8
+            },
+            {
+              "product": "Манго",
+              "qty_gram": 100,
+              "kcal_per_100g": 60,
+              "p_per_100g": 0.8,
+              "f_per_100g": 0.4,
+              "c_per_100g": 14.0,
+              "price_rub": 65,
+              "cost_rub": 65.0
+            },
+            {
+              "product": "Грецкие орехи",
+              "qty_gram": 15,
+              "kcal_per_100g": 654,
+              "p_per_100g": 15.2,
+              "f_per_100g": 65.2,
+              "c_per_100g": 13.7,
+              "price_rub": 24,
+              "cost_rub": 24.0
+            },
+            {
+              "product": "Кленовый сироп",
+              "qty_gram": 10,
+              "kcal_per_100g": 260,
+              "p_per_100g": 0.0,
+              "f_per_100g": 0.2,
+              "c_per_100g": 67.0,
+              "price_rub": 15,
+              "cost_rub": 15.0
+            }
+          ],
+          "kcal_per_100g": 145,
+          "portion_gram": 300,
+          "kcal_portion": 435,
+          "price_rub": 108.8
+        },
+        {
+          "type": "Перекус",
+          "name": "Финики с миндалём (постный)",
+          "isLenten": true,
+          "recipe": "Финики разрезать, внутрь вложить по 1–2 миндальных орешка. Подавать с зелёным чаем.",
+          "ingredients": [
+            {
+              "product": "Финики",
+              "qty_gram": 60,
+              "kcal_per_100g": 282,
+              "p_per_100g": 2.5,
+              "f_per_100g": 0.4,
+              "c_per_100g": 75.0,
+              "price_rub": 35,
+              "cost_rub": 34.8
+            },
+            {
+              "product": "Миндаль",
+              "qty_gram": 15,
+              "kcal_per_100g": 579,
+              "p_per_100g": 21.2,
+              "f_per_100g": 49.4,
+              "c_per_100g": 21.6,
+              "price_rub": 28,
+              "cost_rub": 27.0
+            }
+          ],
+          "kcal_per_100g": 235,
+          "portion_gram": 75,
+          "kcal_portion": 235,
+          "price_rub": 61.8
+        },
+        {
+          "type": "Обед",
+          "name": "Чечевичный суп с карри и тыквой (постный)",
+          "isLenten": true,
+          "recipe": "Чечевицу и кубики тыквы варить 25 минут с морковью и луком. За 5 минут до конца добавить карри и щепотку куркумы. Заправить оливковым маслом. Подавать с хлебцем.",
+          "ingredients": [
+            {
+              "product": "Чечевица красная",
+              "qty_gram": 90,
+              "kcal_per_100g": 295,
+              "p_per_100g": 24.0,
+              "f_per_100g": 1.5,
+              "c_per_100g": 48.0,
+              "price_rub": 28,
+              "cost_rub": 27.9
+            },
+            {
+              "product": "Тыква",
+              "qty_gram": 150,
+              "kcal_per_100g": 25,
+              "p_per_100g": 1.0,
+              "f_per_100g": 0.3,
+              "c_per_100g": 5.0,
+              "price_rub": 12,
+              "cost_rub": 12.0
+            },
+            {
+              "product": "Морковь",
+              "qty_gram": 50,
+              "kcal_per_100g": 35,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.1,
+              "c_per_100g": 6.9,
+              "price_rub": 4,
+              "cost_rub": 2.5
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 50,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 4,
+              "cost_rub": 2.0
+            },
+            {
+              "product": "Карри (смесь специй)",
+              "qty_gram": 3,
+              "kcal_per_100g": 325,
+              "p_per_100g": 14.0,
+              "f_per_100g": 14.0,
+              "c_per_100g": 24.0,
+              "price_rub": 4,
+              "cost_rub": 4.5
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 10,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 17,
+              "cost_rub": 30
+            },
+            {
+              "product": "Хлебцы цельнозерновые",
+              "qty_gram": 30,
+              "kcal_per_100g": 320,
+              "p_per_100g": 10.0,
+              "f_per_100g": 4.0,
+              "c_per_100g": 60.0,
+              "price_rub": 24,
+              "cost_rub": 42.0
+            }
+          ],
+          "kcal_per_100g": 90,
+          "portion_gram": 470,
+          "kcal_portion": 615,
+          "price_rub": 120.9
+        },
+        {
+          "type": "Ужин",
+          "name": "Булгур с белыми грибами и печёными овощами (постный)",
+          "isLenten": true,
+          "recipe": "Белые грибы обжарить с луком и чесноком. Булгур отварить и смешать с грибами и печёными баклажанами. Заправить оливковым маслом, посыпать зеленью.",
+          "ingredients": [
+            {
+              "product": "Булгур",
+              "qty_gram": 80,
+              "kcal_per_100g": 342,
+              "p_per_100g": 12.3,
+              "f_per_100g": 1.3,
+              "c_per_100g": 70.0,
+              "price_rub": 26,
+              "cost_rub": 25.6
+            },
+            {
+              "product": "Белые грибы (заморозка)",
+              "qty_gram": 150,
+              "kcal_per_100g": 30,
+              "p_per_100g": 3.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 3.0,
+              "price_rub": 95,
+              "cost_rub": 96.0
+            },
+            {
+              "product": "Баклажан",
+              "qty_gram": 120,
+              "kcal_per_100g": 25,
+              "p_per_100g": 1.0,
+              "f_per_100g": 0.2,
+              "c_per_100g": 6.0,
+              "price_rub": 22,
+              "cost_rub": 21.6
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 40,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 3,
+              "cost_rub": 1.6
+            },
+            {
+              "product": "Чеснок",
+              "qty_gram": 5,
+              "kcal_per_100g": 149,
+              "p_per_100g": 6.5,
+              "f_per_100g": 0.5,
+              "c_per_100g": 29.9,
+              "price_rub": 3,
+              "cost_rub": 3.0
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 12,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 20,
+              "cost_rub": 36
+            },
+            {
+              "product": "Укроп",
+              "qty_gram": 5,
+              "kcal_per_100g": 38,
+              "p_per_100g": 2.5,
+              "f_per_100g": 0.5,
+              "c_per_100g": 6.3,
+              "price_rub": 3,
+              "cost_rub": 5.0
+            }
+          ],
+          "kcal_per_100g": 130,
+          "portion_gram": 410,
+          "kcal_portion": 615,
+          "price_rub": 188.8
+        }
+      ],
+      "total_kcal": 1900,
+      "deviation_percent": -5.0,
+      "total_price_rub": 480.3
+    },
+    {
+      "day": "Четверг",
+      "is_fasting": false,
+      "date": "2026-08-07",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Шакшука с фетой и хлебом",
+          "isLenten": false,
+          "recipe": "В томатном соусе с паприкой сделать углубления, разбить туда яйца и готовить под крышкой 5–7 минут. Посыпать фетой и зеленью. Подавать с хлебом.",
+          "ingredients": [
+            {
+              "product": "Яйцо куриное",
+              "qty_gram": 100,
+              "kcal_per_100g": 157,
+              "p_per_100g": 12.7,
+              "f_per_100g": 11.5,
+              "c_per_100g": 0.7,
+              "price_rub": 12,
+              "cost_rub": 20.0
+            },
+            {
+              "product": "Томаты в собственном соку",
+              "qty_gram": 200,
+              "kcal_per_100g": 21,
+              "p_per_100g": 1.0,
+              "f_per_100g": 0.1,
+              "c_per_100g": 4.0,
+              "price_rub": 35,
+              "cost_rub": 35.0
+            },
+            {
+              "product": "Перец болгарский",
+              "qty_gram": 60,
+              "kcal_per_100g": 27,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.3,
+              "c_per_100g": 5.7,
+              "price_rub": 15,
+              "cost_rub": 15.0
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 30,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 3,
+              "cost_rub": 1.2
+            },
+            {
+              "product": "Фета",
+              "qty_gram": 25,
+              "kcal_per_100g": 264,
+              "p_per_100g": 14.2,
+              "f_per_100g": 21.3,
+              "c_per_100g": 4.1,
+              "price_rub": 35,
+              "cost_rub": 34.5
+            },
+            {
+              "product": "Хлеб чиабатта",
+              "qty_gram": 60,
+              "kcal_per_100g": 270,
+              "p_per_100g": 8.5,
+              "f_per_100g": 4.0,
+              "c_per_100g": 50.0,
+              "price_rub": 25,
+              "cost_rub": 25.2
+            }
+          ],
+          "kcal_per_100g": 130,
+          "portion_gram": 475,
+          "kcal_portion": 615,
+          "price_rub": 130.9
+        },
+        {
+          "type": "Перекус",
+          "name": "Смузи из банана, манго и греческого йогурта",
+          "isLenten": false,
+          "recipe": "В блендере смешать банан, кубики манго, греческий йогурт и ложку мёда до однородности. Перелить в стакан.",
+          "ingredients": [
+            {
+              "product": "Банан",
+              "qty_gram": 120,
+              "kcal_per_100g": 89,
+              "p_per_100g": 1.5,
+              "f_per_100g": 0.3,
+              "c_per_100g": 22.8,
+              "price_rub": 14,
+              "cost_rub": 13.8
+            },
+            {
+              "product": "Манго",
+              "qty_gram": 70,
+              "kcal_per_100g": 60,
+              "p_per_100g": 0.8,
+              "f_per_100g": 0.4,
+              "c_per_100g": 14.0,
+              "price_rub": 45,
+              "cost_rub": 45.5
+            },
+            {
+              "product": "Греческий йогурт 2%",
+              "qty_gram": 100,
+              "kcal_per_100g": 59,
+              "p_per_100g": 10.0,
+              "f_per_100g": 2.0,
+              "c_per_100g": 3.5,
+              "price_rub": 35,
+              "cost_rub": 35.0
+            },
+            {
+              "product": "Мёд",
+              "qty_gram": 5,
+              "kcal_per_100g": 304,
+              "p_per_100g": 0.3,
+              "f_per_100g": 0.0,
+              "c_per_100g": 82.4,
+              "price_rub": 4,
+              "cost_rub": 4.5
+            }
+          ],
+          "kcal_per_100g": 92,
+          "portion_gram": 295,
+          "kcal_portion": 270,
+          "price_rub": 98.8
+        },
+        {
+          "type": "Обед",
+          "name": "Паста с форелью и брокколи в сливочном соусе",
+          "isLenten": false,
+          "recipe": "Пасту отварить аль денте. Форель и брокколи обжарить, добавить сливки и пармезан. Соединить с пастой. Подавать с базиликом.",
+          "ingredients": [
+            {
+              "product": "Паста (пенне)",
+              "qty_gram": 90,
+              "kcal_per_100g": 350,
+              "p_per_100g": 12.0,
+              "f_per_100g": 1.5,
+              "c_per_100g": 71.0,
+              "price_rub": 30,
+              "cost_rub": 29.7
+            },
+            {
+              "product": "Форель (филе)",
+              "qty_gram": 140,
+              "kcal_per_100g": 207,
+              "p_per_100g": 20.0,
+              "f_per_100g": 13.0,
+              "c_per_100g": 0.0,
+              "price_rub": 165,
+              "cost_rub": 165.2
+            },
+            {
+              "product": "Брокколи",
+              "qty_gram": 150,
+              "kcal_per_100g": 34,
+              "p_per_100g": 2.8,
+              "f_per_100g": 0.4,
+              "c_per_100g": 6.6,
+              "price_rub": 45,
+              "cost_rub": 45.0
+            },
+            {
+              "product": "Сливки 20%",
+              "qty_gram": 60,
+              "kcal_per_100g": 205,
+              "p_per_100g": 2.8,
+              "f_per_100g": 20.0,
+              "c_per_100g": 3.6,
+              "price_rub": 22,
+              "cost_rub": 21.6
+            },
+            {
+              "product": "Пармезан",
+              "qty_gram": 15,
+              "kcal_per_100g": 392,
+              "p_per_100g": 35.0,
+              "f_per_100g": 25.0,
+              "c_per_100g": 0.0,
+              "price_rub": 45,
+              "cost_rub": 45.0
+            }
+          ],
+          "kcal_per_100g": 200,
+          "portion_gram": 455,
+          "kcal_portion": 780,
+          "price_rub": 306.5
+        },
+        {
+          "type": "Ужин",
+          "name": "Тёплый салат с куриной грудкой, киноа и запечённой тыквой",
+          "isLenten": false,
+          "recipe": "Куриную грудку обжарить и нарезать медальонами. Тыкву запечь с тимьяном. На тарелку выложить киноа, тыкву, курицу и шпинат. Заправить оливковым маслом.",
+          "ingredients": [
+            {
+              "product": "Куриная грудка (охлаждённая)",
+              "qty_gram": 120,
+              "kcal_per_100g": 165,
+              "p_per_100g": 31.0,
+              "f_per_100g": 3.6,
+              "c_per_100g": 0.0,
+              "price_rub": 75,
+              "cost_rub": 66.0
+            },
+            {
+              "product": "Киноа",
+              "qty_gram": 50,
+              "kcal_per_100g": 368,
+              "p_per_100g": 14.1,
+              "f_per_100g": 6.1,
+              "c_per_100g": 64.2,
+              "price_rub": 27,
+              "cost_rub": 27.0
+            },
+            {
+              "product": "Тыква",
+              "qty_gram": 150,
+              "kcal_per_100g": 25,
+              "p_per_100g": 1.0,
+              "f_per_100g": 0.3,
+              "c_per_100g": 5.0,
+              "price_rub": 12,
+              "cost_rub": 12.0
+            },
+            {
+              "product": "Шпинат",
+              "qty_gram": 40,
+              "kcal_per_100g": 22,
+              "p_per_100g": 2.9,
+              "f_per_100g": 0.4,
+              "c_per_100g": 2.0,
+              "price_rub": 28,
+              "cost_rub": 28.0
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 8,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 14,
+              "cost_rub": 24
+            }
+          ],
+          "kcal_per_100g": 125,
+          "portion_gram": 368,
+          "kcal_portion": 460,
+          "price_rub": 157.0
+        }
+      ],
+      "total_kcal": 2125,
+      "deviation_percent": 6.3,
+      "total_price_rub": 693.2
+    },
+    {
+      "day": "Пятница",
+      "is_fasting": true,
+      "date": "2026-08-08",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Киноа с курагой, миндалём и кленовым сиропом (постный)",
+          "isLenten": true,
+          "recipe": "Киноа сварить на воде 15 минут. Добавить нарезанную курагу и дроблёный миндаль. Полить кленовым сиропом и щепоткой корицы.",
+          "ingredients": [
+            {
+              "product": "Киноа",
+              "qty_gram": 70,
+              "kcal_per_100g": 368,
+              "p_per_100g": 14.1,
+              "f_per_100g": 6.1,
+              "c_per_100g": 64.2,
+              "price_rub": 38,
+              "cost_rub": 37.8
+            },
+            {
+              "product": "Курага",
+              "qty_gram": 30,
+              "kcal_per_100g": 232,
+              "p_per_100g": 5.2,
+              "f_per_100g": 0.3,
+              "c_per_100g": 51.0,
+              "price_rub": 25,
+              "cost_rub": 24.9
+            },
+            {
+              "product": "Миндаль",
+              "qty_gram": 15,
+              "kcal_per_100g": 579,
+              "p_per_100g": 21.2,
+              "f_per_100g": 49.4,
+              "c_per_100g": 21.6,
+              "price_rub": 28,
+              "cost_rub": 27.0
+            },
+            {
+              "product": "Кленовый сироп",
+              "qty_gram": 8,
+              "kcal_per_100g": 260,
+              "p_per_100g": 0.0,
+              "f_per_100g": 0.2,
+              "c_per_100g": 67.0,
+              "price_rub": 12,
+              "cost_rub": 12.0
+            }
+          ],
+          "kcal_per_100g": 175,
+          "portion_gram": 270,
+          "kcal_portion": 470,
+          "price_rub": 101.7
+        },
+        {
+          "type": "Перекус",
+          "name": "Яблоко, грецкие орехи и чернослив (постный)",
+          "isLenten": true,
+          "recipe": "Яблоко нарезать, добавить грецкие орехи и чернослив. Сбрызнуть соком лимона.",
+          "ingredients": [
+            {
+              "product": "Яблоко",
+              "qty_gram": 150,
+              "kcal_per_100g": 47,
+              "p_per_100g": 0.4,
+              "f_per_100g": 0.4,
+              "c_per_100g": 9.8,
+              "price_rub": 14,
+              "cost_rub": 14.25
+            },
+            {
+              "product": "Грецкие орехи",
+              "qty_gram": 15,
+              "kcal_per_100g": 654,
+              "p_per_100g": 15.2,
+              "f_per_100g": 65.2,
+              "c_per_100g": 13.7,
+              "price_rub": 24,
+              "cost_rub": 24.0
+            },
+            {
+              "product": "Чернослив",
+              "qty_gram": 25,
+              "kcal_per_100g": 256,
+              "p_per_100g": 2.3,
+              "f_per_100g": 0.7,
+              "c_per_100g": 57.5,
+              "price_rub": 18,
+              "cost_rub": 18.0
+            }
+          ],
+          "kcal_per_100g": 150,
+          "portion_gram": 190,
+          "kcal_portion": 285,
+          "price_rub": 56.25
+        },
+        {
+          "type": "Обед",
+          "name": "Фасоль с овощами и киноа в томатном соусе (постный)",
+          "isLenten": true,
+          "recipe": "Белую фасоль отварить, смешать с отварной киноа, обжаренным луком, морковью и цуккини. Заправить томатным соусом с базиликом и оливковым маслом.",
+          "ingredients": [
+            {
+              "product": "Фасоль белая (консерв.)",
+              "qty_gram": 100,
+              "kcal_per_100g": 298,
+              "p_per_100g": 21.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 55.0,
+              "price_rub": 35,
+              "cost_rub": 35.0
+            },
+            {
+              "product": "Киноа",
+              "qty_gram": 50,
+              "kcal_per_100g": 368,
+              "p_per_100g": 14.1,
+              "f_per_100g": 6.1,
+              "c_per_100g": 64.2,
+              "price_rub": 27,
+              "cost_rub": 27.0
+            },
+            {
+              "product": "Цуккини",
+              "qty_gram": 100,
+              "kcal_per_100g": 17,
+              "p_per_100g": 1.2,
+              "f_per_100g": 0.3,
+              "c_per_100g": 3.1,
+              "price_rub": 25,
+              "cost_rub": 25.0
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 40,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 3,
+              "cost_rub": 1.6
+            },
+            {
+              "product": "Морковь",
+              "qty_gram": 40,
+              "kcal_per_100g": 35,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.1,
+              "c_per_100g": 6.9,
+              "price_rub": 3,
+              "cost_rub": 2.0
+            },
+            {
+              "product": "Томатный соус (passata)",
+              "qty_gram": 100,
+              "kcal_per_100g": 29,
+              "p_per_100g": 1.5,
+              "f_per_100g": 0.2,
+              "c_per_100g": 5.5,
+              "price_rub": 22,
+              "cost_rub": 22.0
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 10,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 17,
+              "cost_rub": 30
+            }
+          ],
+          "kcal_per_100g": 130,
+          "portion_gram": 440,
+          "kcal_portion": 570,
+          "price_rub": 142.6
+        },
+        {
+          "type": "Ужин",
+          "name": "Тушёная капуста с белыми грибами и грецкими орехами (постный)",
+          "isLenten": true,
+          "recipe": "Капусту нашинковать и тушить с луком и морковью. Добавить белые грибы и дроблёные грецкие орехи, тушить ещё 10 минут. Подавать с зеленью.",
+          "ingredients": [
+            {
+              "product": "Капуста белокочанная",
+              "qty_gram": 300,
+              "kcal_per_100g": 28,
+              "p_per_100g": 1.8,
+              "f_per_100g": 0.1,
+              "c_per_100g": 5.4,
+              "price_rub": 12,
+              "cost_rub": 12.0
+            },
+            {
+              "product": "Белые грибы (заморозка)",
+              "qty_gram": 100,
+              "kcal_per_100g": 30,
+              "p_per_100g": 3.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 3.0,
+              "price_rub": 65,
+              "cost_rub": 64.0
+            },
+            {
+              "product": "Морковь",
+              "qty_gram": 40,
+              "kcal_per_100g": 35,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.1,
+              "c_per_100g": 6.9,
+              "price_rub": 3,
+              "cost_rub": 2.0
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 40,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 3,
+              "cost_rub": 1.6
+            },
+            {
+              "product": "Грецкие орехи",
+              "qty_gram": 15,
+              "kcal_per_100g": 654,
+              "p_per_100g": 15.2,
+              "f_per_100g": 65.2,
+              "c_per_100g": 13.7,
+              "price_rub": 24,
+              "cost_rub": 24.0
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 10,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 17,
+              "cost_rub": 30
+            },
+            {
+              "product": "Укроп",
+              "qty_gram": 5,
+              "kcal_per_100g": 38,
+              "p_per_100g": 2.5,
+              "f_per_100g": 0.5,
+              "c_per_100g": 6.3,
+              "price_rub": 3,
+              "cost_rub": 5.0
+            }
+          ],
+          "kcal_per_100g": 85,
+          "portion_gram": 510,
+          "kcal_portion": 575,
+          "price_rub": 138.6
+        }
+      ],
+      "total_kcal": 1900,
+      "deviation_percent": -5.0,
+      "total_price_rub": 439.15
+    },
+    {
+      "day": "Суббота",
+      "is_fasting": false,
+      "date": "2026-08-09",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Блинчики с маскарпоне и малиной",
+          "isLenten": false,
+          "recipe": "Из яиц, молока и муки испечь тонкие блинчики. Начинить маскарпоне с сахаром. Сложить треугольниками, сверху выложить свежую малину и мяту.",
+          "ingredients": [
+            {
+              "product": "Яйцо куриное",
+              "qty_gram": 100,
+              "kcal_per_100g": 157,
+              "p_per_100g": 12.7,
+              "f_per_100g": 11.5,
+              "c_per_100g": 0.7,
+              "price_rub": 12,
+              "cost_rub": 20.0
+            },
+            {
+              "product": "Молоко 3.2%",
+              "qty_gram": 200,
+              "kcal_per_100g": 60,
+              "p_per_100g": 2.9,
+              "f_per_100g": 3.2,
+              "c_per_100g": 4.7,
+              "price_rub": 18,
+              "cost_rub": 16.0
+            },
+            {
+              "product": "Мука пшеничная",
+              "qty_gram": 60,
+              "kcal_per_100g": 364,
+              "p_per_100g": 9.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 76.0,
+              "price_rub": 9,
+              "cost_rub": 3.0
+            },
+            {
+              "product": "Маскарпоне",
+              "qty_gram": 60,
+              "kcal_per_100g": 412,
+              "p_per_100g": 7.0,
+              "f_per_100g": 41.0,
+              "c_per_100g": 4.0,
+              "price_rub": 55,
+              "cost_rub": 55.2
+            },
+            {
+              "product": "Малина свежая",
+              "qty_gram": 40,
+              "kcal_per_100g": 46,
+              "p_per_100g": 0.8,
+              "f_per_100g": 0.5,
+              "c_per_100g": 8.3,
+              "price_rub": 44,
+              "cost_rub": 44.0
+            }
+          ],
+          "kcal_per_100g": 200,
+          "portion_gram": 460,
+          "kcal_portion": 590,
+          "price_rub": 138.2
+        },
+        {
+          "type": "Перекус",
+          "name": "Тост с рикоттой и персиком",
+          "isLenten": false,
+          "recipe": "Хлеб подсушить, намазать рикоттой, сверху — ломтики персика. Сбрызнуть мёдом.",
+          "ingredients": [
+            {
+              "product": "Хлеб чиабатта",
+              "qty_gram": 50,
+              "kcal_per_100g": 270,
+              "p_per_100g": 8.5,
+              "f_per_100g": 4.0,
+              "c_per_100g": 50.0,
+              "price_rub": 21,
+              "cost_rub": 21.0
+            },
+            {
+              "product": "Рикотта",
+              "qty_gram": 80,
+              "kcal_per_100g": 174,
+              "p_per_100g": 11.0,
+              "f_per_100g": 13.0,
+              "c_per_100g": 3.0,
+              "price_rub": 45,
+              "cost_rub": 44.8
+            },
+            {
+              "product": "Персик",
+              "qty_gram": 80,
+              "kcal_per_100g": 44,
+              "p_per_100g": 0.9,
+              "f_per_100g": 0.3,
+              "c_per_100g": 9.5,
+              "price_rub": 35,
+              "cost_rub": 35.2
+            },
+            {
+              "product": "Мёд",
+              "qty_gram": 5,
+              "kcal_per_100g": 304,
+              "p_per_100g": 0.3,
+              "f_per_100g": 0.0,
+              "c_per_100g": 82.4,
+              "price_rub": 4,
+              "cost_rub": 4.5
+            }
+          ],
+          "kcal_per_100g": 175,
+          "portion_gram": 215,
+          "kcal_portion": 285,
+          "price_rub": 105.5
+        },
+        {
+          "type": "Обед",
+          "name": "Утиная грудка с вишнёвым соусом и картофелем",
+          "isLenten": false,
+          "recipe": "Утиную грудку посолить, поперчить, обжарить кожей вниз 8 минут, перевернуть и довести 5 минут. Приготовить соус из вишни, вина и сахара. Подавать с запечённым картофелем.",
+          "ingredients": [
+            {
+              "product": "Утиная грудка",
+              "qty_gram": 150,
+              "kcal_per_100g": 308,
+              "p_per_100g": 19.0,
+              "f_per_100g": 26.0,
+              "c_per_100g": 0.0,
+              "price_rub": 195,
+              "cost_rub": 195.0
+            },
+            {
+              "product": "Картофель (молодой)",
+              "qty_gram": 180,
+              "kcal_per_100g": 80,
+              "p_per_100g": 2.0,
+              "f_per_100g": 0.4,
+              "c_per_100g": 17.0,
+              "price_rub": 24,
+              "cost_rub": 23.4
+            },
+            {
+              "product": "Вишня (заморозка)",
+              "qty_gram": 80,
+              "kcal_per_100g": 50,
+              "p_per_100g": 0.7,
+              "f_per_100g": 0.2,
+              "c_per_100g": 11.0,
+              "price_rub": 35,
+              "cost_rub": 35.2
+            },
+            {
+              "product": "Красное вино (для соуса)",
+              "qty_gram": 30,
+              "kcal_per_100g": 85,
+              "p_per_100g": 0.1,
+              "f_per_100g": 0.0,
+              "c_per_100g": 2.6,
+              "price_rub": 18,
+              "cost_rub": 18.0
+            },
+            {
+              "product": "Масло сливочное 82.5%",
+              "qty_gram": 8,
+              "kcal_per_100g": 717,
+              "p_per_100g": 0.5,
+              "f_per_100g": 81.1,
+              "c_per_100g": 1.8,
+              "price_rub": 7,
+              "cost_rub": 7.2
+            }
+          ],
+          "kcal_per_100g": 175,
+          "portion_gram": 450,
+          "kcal_portion": 790,
+          "price_rub": 278.8
+        },
+        {
+          "type": "Ужин",
+          "name": "Стейк из тунца с салатом из авокадо и эдамаме",
+          "isLenten": false,
+          "recipe": "Стейк тунца обжарить по 1.5 минуты с каждой стороны (внутри розовый). На тарелку: микс салата, ломтики авокадо, бобы эдамаме. Заправить оливковым маслом и соевым соусом.",
+          "ingredients": [
+            {
+              "product": "Тунец (стейк)",
+              "qty_gram": 130,
+              "kcal_per_100g": 144,
+              "p_per_100g": 30.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 0.0,
+              "price_rub": 220,
+              "cost_rub": 221.0
+            },
+            {
+              "product": "Авокадо",
+              "qty_gram": 80,
+              "kcal_per_100g": 160,
+              "p_per_100g": 2.0,
+              "f_per_100g": 14.7,
+              "c_per_100g": 8.5,
+              "price_rub": 70,
+              "cost_rub": 30.0
+            },
+            {
+              "product": "Эдамаме (бобы)",
+              "qty_gram": 60,
+              "kcal_per_100g": 122,
+              "p_per_100g": 11.0,
+              "f_per_100g": 5.0,
+              "c_per_100g": 8.0,
+              "price_rub": 45,
+              "cost_rub": 45.0
+            },
+            {
+              "product": "Микс салат",
+              "qty_gram": 40,
+              "kcal_per_100g": 18,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 2.0,
+              "price_rub": 25,
+              "cost_rub": 24.0
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 8,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 14,
+              "cost_rub": 24
+            }
+          ],
+          "kcal_per_100g": 175,
+          "portion_gram": 320,
+          "kcal_portion": 560,
+          "price_rub": 344.0
+        }
+      ],
+      "total_kcal": 2225,
+      "deviation_percent": 11.3,
+      "total_price_rub": 866.5
+    },
+    {
+      "day": "Воскресенье",
+      "is_fasting": false,
+      "date": "2026-08-10",
+      "meals": [
+        {
+          "type": "Завтрак",
+          "name": "Гранола с йогуртом, орехами и ягодами",
+          "isLenten": false,
+          "recipe": "В стакан слоями выложить греческий йогурт, гранолу, ягоды (малина, голубика), миндаль и мёд. Подавать сразу.",
+          "ingredients": [
+            {
+              "product": "Греческий йогурт 2%",
+              "qty_gram": 150,
+              "kcal_per_100g": 59,
+              "p_per_100g": 10.0,
+              "f_per_100g": 2.0,
+              "c_per_100g": 3.5,
+              "price_rub": 52,
+              "cost_rub": 52.5
+            },
+            {
+              "product": "Гранола",
+              "qty_gram": 50,
+              "kcal_per_100g": 471,
+              "p_per_100g": 10.0,
+              "f_per_100g": 19.0,
+              "c_per_100g": 64.0,
+              "price_rub": 50,
+              "cost_rub": 50.0
+            },
+            {
+              "product": "Малина свежая",
+              "qty_gram": 30,
+              "kcal_per_100g": 46,
+              "p_per_100g": 0.8,
+              "f_per_100g": 0.5,
+              "c_per_100g": 8.3,
+              "price_rub": 33,
+              "cost_rub": 33.0
+            },
+            {
+              "product": "Голубика свежая",
+              "qty_gram": 30,
+              "kcal_per_100g": 44,
+              "p_per_100g": 0.7,
+              "f_per_100g": 0.4,
+              "c_per_100g": 10.0,
+              "price_rub": 30,
+              "cost_rub": 30.0
+            },
+            {
+              "product": "Миндаль",
+              "qty_gram": 10,
+              "kcal_per_100g": 579,
+              "p_per_100g": 21.2,
+              "f_per_100g": 49.4,
+              "c_per_100g": 21.6,
+              "price_rub": 19,
+              "cost_rub": 18.0
+            },
+            {
+              "product": "Мёд",
+              "qty_gram": 5,
+              "kcal_per_100g": 304,
+              "p_per_100g": 0.3,
+              "f_per_100g": 0.0,
+              "c_per_100g": 82.4,
+              "price_rub": 4,
+              "cost_rub": 4.5
+            }
+          ],
+          "kcal_per_100g": 175,
+          "portion_gram": 275,
+          "kcal_portion": 480,
+          "price_rub": 188.0
+        },
+        {
+          "type": "Перекус",
+          "name": "Пармезан с грушей и грецкими орехами",
+          "isLenten": false,
+          "recipe": "На деревянную доску выложить тонкие ломтики пармезана, грушу, нарезанную дольками, и грецкие орехи. Полить мёдом.",
+          "ingredients": [
+            {
+              "product": "Пармезан",
+              "qty_gram": 25,
+              "kcal_per_100g": 392,
+              "p_per_100g": 35.0,
+              "f_per_100g": 25.0,
+              "c_per_100g": 0.0,
+              "price_rub": 75,
+              "cost_rub": 75.0
+            },
+            {
+              "product": "Груша",
+              "qty_gram": 100,
+              "kcal_per_100g": 47,
+              "p_per_100g": 0.4,
+              "f_per_100g": 0.3,
+              "c_per_100g": 11.4,
+              "price_rub": 22,
+              "cost_rub": 22.0
+            },
+            {
+              "product": "Грецкие орехи",
+              "qty_gram": 12,
+              "kcal_per_100g": 654,
+              "p_per_100g": 15.2,
+              "f_per_100g": 65.2,
+              "c_per_100g": 13.7,
+              "price_rub": 19,
+              "cost_rub": 19.2
+            },
+            {
+              "product": "Мёд",
+              "qty_gram": 5,
+              "kcal_per_100g": 304,
+              "p_per_100g": 0.3,
+              "f_per_100g": 0.0,
+              "c_per_100g": 82.4,
+              "price_rub": 4,
+              "cost_rub": 4.5
+            }
+          ],
+          "kcal_per_100g": 240,
+          "portion_gram": 142,
+          "kcal_portion": 285,
+          "price_rub": 120.7
+        },
+        {
+          "type": "Обед",
+          "name": "Тальятелле с говядиной и белыми грибами",
+          "isLenten": false,
+          "recipe": "Говядину нарезать кубиками и обжарить. Добавить белые грибы и лук, тушить 10 минут. Тальятелле отварить, соединить с соусом. Посыпать пармезаном и петрушкой.",
+          "ingredients": [
+            {
+              "product": "Тальятелле",
+              "qty_gram": 80,
+              "kcal_per_100g": 348,
+              "p_per_100g": 12.0,
+              "f_per_100g": 1.4,
+              "c_per_100g": 71.0,
+              "price_rub": 45,
+              "cost_rub": 44.8
+            },
+            {
+              "product": "Говядина (мякоть)",
+              "qty_gram": 130,
+              "kcal_per_100g": 250,
+              "p_per_100g": 26.0,
+              "f_per_100g": 17.0,
+              "c_per_100g": 0.0,
+              "price_rub": 140,
+              "cost_rub": 143.0
+            },
+            {
+              "product": "Белые грибы (заморозка)",
+              "qty_gram": 100,
+              "kcal_per_100g": 30,
+              "p_per_100g": 3.0,
+              "f_per_100g": 1.0,
+              "c_per_100g": 3.0,
+              "price_rub": 65,
+              "cost_rub": 64.0
+            },
+            {
+              "product": "Лук репчатый",
+              "qty_gram": 40,
+              "kcal_per_100g": 41,
+              "p_per_100g": 1.4,
+              "f_per_100g": 0.2,
+              "c_per_100g": 8.2,
+              "price_rub": 3,
+              "cost_rub": 1.6
+            },
+            {
+              "product": "Пармезан",
+              "qty_gram": 12,
+              "kcal_per_100g": 392,
+              "p_per_100g": 35.0,
+              "f_per_100g": 25.0,
+              "c_per_100g": 0.0,
+              "price_rub": 36,
+              "cost_rub": 36.0
+            }
+          ],
+          "kcal_per_100g": 190,
+          "portion_gram": 360,
+          "kcal_portion": 685,
+          "price_rub": 289.4
+        },
+        {
+          "type": "Ужин",
+          "name": "Запечённые овощи с хумусом и зернёным творогом",
+          "isLenten": false,
+          "recipe": "Морковь, перец, цуккини и баклажан запечь с оливковым маслом. Подавать с домашним хумусом, зернёным творогом и хлебцами.",
+          "ingredients": [
+            {
+              "product": "Морковь",
+              "qty_gram": 80,
+              "kcal_per_100g": 35,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.1,
+              "c_per_100g": 6.9,
+              "price_rub": 5,
+              "cost_rub": 4.0
+            },
+            {
+              "product": "Перец болгарский",
+              "qty_gram": 100,
+              "kcal_per_100g": 27,
+              "p_per_100g": 1.3,
+              "f_per_100g": 0.3,
+              "c_per_100g": 5.7,
+              "price_rub": 25,
+              "cost_rub": 25.0
+            },
+            {
+              "product": "Цуккини",
+              "qty_gram": 100,
+              "kcal_per_100g": 17,
+              "p_per_100g": 1.2,
+              "f_per_100g": 0.3,
+              "c_per_100g": 3.1,
+              "price_rub": 25,
+              "cost_rub": 25.0
+            },
+            {
+              "product": "Баклажан",
+              "qty_gram": 100,
+              "kcal_per_100g": 25,
+              "p_per_100g": 1.0,
+              "f_per_100g": 0.2,
+              "c_per_100g": 6.0,
+              "price_rub": 18,
+              "cost_rub": 18.0
+            },
+            {
+              "product": "Хумус",
+              "qty_gram": 80,
+              "kcal_per_100g": 166,
+              "p_per_100g": 7.9,
+              "f_per_100g": 9.6,
+              "c_per_100g": 14.3,
+              "price_rub": 35,
+              "cost_rub": 35.2
+            },
+            {
+              "product": "Зернёный творог 5%",
+              "qty_gram": 80,
+              "kcal_per_100g": 121,
+              "p_per_100g": 17.0,
+              "f_per_100g": 5.0,
+              "c_per_100g": 1.8,
+              "price_rub": 38,
+              "cost_rub": 37.6
+            },
+            {
+              "product": "Хлебцы цельнозерновые",
+              "qty_gram": 30,
+              "kcal_per_100g": 320,
+              "p_per_100g": 10.0,
+              "f_per_100g": 4.0,
+              "c_per_100g": 60.0,
+              "price_rub": 24,
+              "cost_rub": 42.0
+            },
+            {
+              "product": "Масло оливковое Extra Virgin",
+              "qty_gram": 8,
+              "kcal_per_100g": 884,
+              "p_per_100g": 0.0,
+              "f_per_100g": 100.0,
+              "c_per_100g": 0.0,
+              "price_rub": 14,
+              "cost_rub": 24
+            }
+          ],
+          "kcal_per_100g": 110,
+          "portion_gram": 580,
+          "kcal_portion": 510,
+          "price_rub": 210.8
+        }
+      ],
+      "total_kcal": 1960,
+      "deviation_percent": -2.0,
+      "total_price_rub": 808.9
+    }
+  ],
+  "shopping_list": [
+    {
+      "product": "Овсяные хлопья",
+      "qty_week": "160 г",
+      "price_rub": 28
+    },
+    {
+      "product": "Киноа",
+      "qty_week": "230 г",
+      "price_rub": 125
+    },
+    {
+      "product": "Булгур",
+      "qty_week": "150 г",
+      "price_rub": 48
+    },
+    {
+      "product": "Рис басмати",
+      "qty_week": "70 г",
+      "price_rub": 18
+    },
+    {
+      "product": "Паста (пенне)",
+      "qty_week": "90 г",
+      "price_rub": 30
+    },
+    {
+      "product": "Тальятелле",
+      "qty_week": "80 г",
+      "price_rub": 45
+    },
+    {
+      "product": "Мука пшеничная",
+      "qty_week": "85 г",
+      "price_rub": 13
+    },
+    {
+      "product": "Хлеб цельнозерновой",
+      "qty_week": "70 г",
+      "price_rub": 22
+    },
+    {
+      "product": "Хлеб чиабатта",
+      "qty_week": "110 г",
+      "price_rub": 46
+    },
+    {
+      "product": "Хлебцы цельнозерновые",
+      "qty_week": "60 г (4 шт)",
+      "price_rub": 48
+    },
+    {
+      "product": "Гранола",
+      "qty_week": "50 г",
+      "price_rub": 50
+    },
+    {
+      "product": "Говядина (стейк)",
+      "qty_week": "180 г",
+      "price_rub": 165
+    },
+    {
+      "product": "Говядина (мякоть для тушения)",
+      "qty_week": "130 г",
+      "price_rub": 140
+    },
+    {
+      "product": "Говяжья печень",
+      "qty_week": "130 г",
+      "price_rub": 95
+    },
+    {
+      "product": "Куриная грудка (охлаждённая)",
+      "qty_week": "120 г",
+      "price_rub": 75
+    },
+    {
+      "product": "Утиная грудка",
+      "qty_week": "150 г",
+      "price_rub": 195
+    },
+    {
+      "product": "Сёмга слабосолёная",
+      "qty_week": "100 г",
+      "price_rub": 195
+    },
+    {
+      "product": "Форель (филе)",
+      "qty_week": "140 г",
+      "price_rub": 165
+    },
+    {
+      "product": "Треска (филе)",
+      "qty_week": "200 г",
+      "price_rub": 175
+    },
+    {
+      "product": "Тунец (стейк)",
+      "qty_week": "130 г",
+      "price_rub": 220
+    },
+    {
+      "product": "Тунец в с/м",
+      "qty_week": "0",
+      "price_rub": 0
+    },
+    {
+      "product": "Зернёный творог 5%",
+      "qty_week": "260 г",
+      "price_rub": 123
+    },
+    {
+      "product": "Рикотта",
+      "qty_week": "80 г",
+      "price_rub": 45
+    },
+    {
+      "product": "Маскарпоне",
+      "qty_week": "60 г",
+      "price_rub": 55
+    },
+    {
+      "product": "Греческий йогурт 2%",
+      "qty_week": "480 г",
+      "price_rub": 167
+    },
+    {
+      "product": "Фета",
+      "qty_week": "65 г",
+      "price_rub": 90
+    },
+    {
+      "product": "Пармезан",
+      "qty_week": "47 г",
+      "price_rub": 141
+    },
+    {
+      "product": "Сливки 20%",
+      "qty_week": "60 г",
+      "price_rub": 22
+    },
+    {
+      "product": "Молоко 3.2%",
+      "qty_week": "200 мл",
+      "price_rub": 18
+    },
+    {
+      "product": "Масло сливочное 82.5%",
+      "qty_week": "70 г",
+      "price_rub": 63
+    },
+    {
+      "product": "Яйцо куриное",
+      "qty_week": "10 шт",
+      "price_rub": 70
+    },
+    {
+      "product": "Масло оливковое Extra Virgin",
+      "qty_week": "200 мл",
+      "price_rub": 280
+    },
+    {
+      "product": "Хумус готовый",
+      "qty_week": "80 г",
+      "price_rub": 35
+    },
+    {
+      "product": "Авокадо",
+      "qty_week": "3 шт (240 г)",
+      "price_rub": 210
+    },
+    {
+      "product": "Томаты в собственном соку",
+      "qty_week": "1 банка (200 г)",
+      "price_rub": 35
+    },
+    {
+      "product": "Томатный соус (passata)",
+      "qty_week": "100 мл",
+      "price_rub": 22
+    },
+    {
+      "product": "Фасоль белая консервированная",
+      "qty_week": "1 банка (100 г)",
+      "price_rub": 35
+    },
+    {
+      "product": "Чечевица красная",
+      "qty_week": "90 г",
+      "price_rub": 28
+    },
+    {
+      "product": "Оливки",
+      "qty_week": "20 г",
+      "price_rub": 18
+    },
+    {
+      "product": "Каперсы",
+      "qty_week": "10 г",
+      "price_rub": 12
+    },
+    {
+      "product": "Белые грибы (заморозка)",
+      "qty_week": "350 г",
+      "price_rub": 225
+    },
+    {
+      "product": "Брокколи",
+      "qty_week": "150 г",
+      "price_rub": 45
+    },
+    {
+      "product": "Тыква",
+      "qty_week": "300 г",
+      "price_rub": 24
+    },
+    {
+      "product": "Картофель (молодой)",
+      "qty_week": "180 г",
+      "price_rub": 24
+    },
+    {
+      "product": "Морковь",
+      "qty_week": "240 г",
+      "price_rub": 18
+    },
+    {
+      "product": "Лук репчатый",
+      "qty_week": "270 г",
+      "price_rub": 19
+    },
+    {
+      "product": "Лук красный",
+      "qty_week": "30 г",
+      "price_rub": 8
+    },
+    {
+      "product": "Чеснок",
+      "qty_week": "1 головка",
+      "price_rub": 6
+    },
+    {
+      "product": "Перец болгарский",
+      "qty_week": "280 г",
+      "price_rub": 70
+    },
+    {
+      "product": "Помидоры черри",
+      "qty_week": "120 г",
+      "price_rub": 38
+    },
+    {
+      "product": "Капуста белокочанная",
+      "qty_week": "300 г",
+      "price_rub": 12
+    },
+    {
+      "product": "Цуккини",
+      "qty_week": "200 г",
+      "price_rub": 50
+    },
+    {
+      "product": "Баклажан",
+      "qty_week": "220 г",
+      "price_rub": 40
+    },
+    {
+      "product": "Шпинат",
+      "qty_week": "40 г",
+      "price_rub": 28
+    },
+    {
+      "product": "Микс салат",
+      "qty_week": "100 г",
+      "price_rub": 60
+    },
+    {
+      "product": "Руккола",
+      "qty_week": "20 г",
+      "price_rub": 28
+    },
+    {
+      "product": "Микрозелень",
+      "qty_week": "10 г",
+      "price_rub": 18
+    },
+    {
+      "product": "Укроп, петрушка",
+      "qty_week": "пучок",
+      "price_rub": 30
+    },
+    {
+      "product": "Эдамаме (бобы)",
+      "qty_week": "60 г",
+      "price_rub": 45
+    },
+    {
+      "product": "Манго",
+      "qty_week": "170 г",
+      "price_rub": 110
+    },
+    {
+      "product": "Груша",
+      "qty_week": "280 г",
+      "price_rub": 62
+    },
+    {
+      "product": "Персик",
+      "qty_week": "80 г",
+      "price_rub": 35
+    },
+    {
+      "product": "Яблоко",
+      "qty_week": "150 г",
+      "price_rub": 14
+    },
+    {
+      "product": "Голубика свежая",
+      "qty_week": "90 г",
+      "price_rub": 90
+    },
+    {
+      "product": "Малина свежая",
+      "qty_week": "120 г",
+      "price_rub": 132
+    },
+    {
+      "product": "Банан",
+      "qty_week": "120 г",
+      "price_rub": 14
+    },
+    {
+      "product": "Гранат",
+      "qty_week": "1 шт (40 г зёрен)",
+      "price_rub": 40
+    },
+    {
+      "product": "Вишня (заморозка)",
+      "qty_week": "80 г",
+      "price_rub": 35
+    },
+    {
+      "product": "Курага",
+      "qty_week": "30 г",
+      "price_rub": 25
+    },
+    {
+      "product": "Чернослив",
+      "qty_week": "25 г",
+      "price_rub": 18
+    },
+    {
+      "product": "Финики",
+      "qty_week": "60 г",
+      "price_rub": 35
+    },
+    {
+      "product": "Миндаль",
+      "qty_week": "60 г",
+      "price_rub": 108
+    },
+    {
+      "product": "Грецкие орехи",
+      "qty_week": "87 г",
+      "price_rub": 140
+    },
+    {
+      "product": "Тыквенные семечки",
+      "qty_week": "10 г",
+      "price_rub": 15
+    },
+    {
+      "product": "Мёд",
+      "qty_week": "50 г",
+      "price_rub": 45
+    },
+    {
+      "product": "Кленовый сироп",
+      "qty_week": "30 мл",
+      "price_rub": 45
+    },
+    {
+      "product": "Лимон",
+      "qty_week": "1 шт",
+      "price_rub": 25
+    },
+    {
+      "product": "Бальзамический уксус",
+      "qty_week": "5 мл",
+      "price_rub": 12
+    },
+    {
+      "product": "Красное вино (для соуса)",
+      "qty_week": "30 мл",
+      "price_rub": 18
+    },
+    {
+      "product": "Карри (смесь специй)",
+      "qty_week": "3 г",
+      "price_rub": 4
+    },
+    {
+      "product": "Специи (тимьян, паприка, корица, соль, перец)",
+      "qty_week": "набор",
+      "price_rub": 80
+    }
+  ],
+  "total_budget_rub": 4991.44,
+  "budget_by_day_avg": 713.06,
+  "week_avg_kcal": 1999,
+  "comparison_to_compromise": {
+    "compromise_total_rub": 4148,
+    "premium_total_rub": 6334,
+    "delta_rub": 2186,
+    "delta_percent": 52.7,
+    "key_premium_replacements": [
+      "Куриные бёдра/печень → говядина (стейк, мякоть, печень): +400 ₽, лучше вкус и БЖУ",
+      "Скумбрия → сёмга слабосолёная, форель, треска, тунец: +560 ₽, элитная рыба 1-2 раза/нед",
+      "Простое подсолнечное масло → оливковое Extra Virgin (салаты, заправки): +150 ₽",
+      "Кефир/ряженка/молоко в пакетах → греческий йогурт, маскарпоне, рикотта, зернёный творог, фета, пармезан: +400 ₽",
+      "Семечки и арахис → миндаль, грецкие орехи, тыквенные семечки: +200 ₽",
+      "Гречка + рис + макароны как база → + булгур, киноа (premium-крупы): +180 ₽",
+      "Банан + яблоко (однообразно) → + манго, груша, голубика, малина, персик, гранат: +300 ₽"
+    ]
+  },
+  "total_budget_meals_rub": 4991.44,
+  "total_budget_shopping_rub": 4991.44,
+  "shopping_list_precise": [
+    {
+      "product": "зернёный творог 5%",
+      "qty": 0.26,
+      "unit": "kg",
+      "price_per_unit": 470,
+      "cost_rub": 122.2
+    },
+    {
+      "product": "яйцо куриное",
+      "qty": 6.2,
+      "unit": "pcs",
+      "price_per_unit": 10,
+      "cost_rub": 62.0
+    },
+    {
+      "product": "мука пшеничная",
+      "qty": 0.085,
+      "unit": "kg",
+      "price_per_unit": 50,
+      "cost_rub": 4.25
+    },
+    {
+      "product": "голубика свежая",
+      "qty": 0.09,
+      "unit": "kg",
+      "price_per_unit": 1000,
+      "cost_rub": 90.0
+    },
+    {
+      "product": "греческий йогурт 2%",
+      "qty": 0.48,
+      "unit": "kg",
+      "price_per_unit": 350,
+      "cost_rub": 168.0
+    },
+    {
+      "product": "масло сливочное 82.5%",
+      "qty": 0.018,
+      "unit": "kg",
+      "price_per_unit": 900,
+      "cost_rub": 16.2
+    },
+    {
+      "product": "миндаль",
+      "qty": 0.06,
+      "unit": "kg",
+      "price_per_unit": 1800,
+      "cost_rub": 108.0
+    },
+    {
+      "product": "малина свежая",
+      "qty": 0.12,
+      "unit": "kg",
+      "price_per_unit": 1100,
+      "cost_rub": 132.0
+    },
+    {
+      "product": "говядина (стейк)",
+      "qty": 0.18,
+      "unit": "kg",
+      "price_per_unit": 1300,
+      "cost_rub": 234.0
+    },
+    {
+      "product": "булгур",
+      "qty": 0.15,
+      "unit": "kg",
+      "price_per_unit": 320,
+      "cost_rub": 48.0
+    },
+    {
+      "product": "перец болгарский",
+      "qty": 0.28,
+      "unit": "kg",
+      "price_per_unit": 250,
+      "cost_rub": 70.0
+    },
+    {
+      "product": "лук красный",
+      "qty": 0.03,
+      "unit": "kg",
+      "price_per_unit": 270,
+      "cost_rub": 8.1
+    },
+    {
+      "product": "масло оливковое extra virgin",
+      "qty": 106.0,
+      "unit": "ml",
+      "price_per_unit": 3,
+      "cost_rub": 318.0
+    },
+    {
+      "product": "руккола",
+      "qty": 0.02,
+      "unit": "kg",
+      "price_per_unit": 1400,
+      "cost_rub": 28.0
+    },
+    {
+      "product": "сёмга слабосолёная",
+      "qty": 0.1,
+      "unit": "kg",
+      "price_per_unit": 1950,
+      "cost_rub": 195.0
+    },
+    {
+      "product": "киноа",
+      "qty": 0.23,
+      "unit": "kg",
+      "price_per_unit": 540,
+      "cost_rub": 124.2
+    },
+    {
+      "product": "авокадо",
+      "qty": 1.0,
+      "unit": "pcs",
+      "price_per_unit": 90,
+      "cost_rub": 90.0
+    },
+    {
+      "product": "лимон",
+      "qty": 0.1,
+      "unit": "pcs",
+      "price_per_unit": 25,
+      "cost_rub": 2.5
+    },
+    {
+      "product": "микрозелень",
+      "qty": 0.01,
+      "unit": "kg",
+      "price_per_unit": 1800,
+      "cost_rub": 18.0
+    },
+    {
+      "product": "хлеб цельнозерновой",
+      "qty": 0.07,
+      "unit": "kg",
+      "price_per_unit": 220,
+      "cost_rub": 15.4
+    },
+    {
+      "product": "пармезан",
+      "qty": 0.062,
+      "unit": "kg",
+      "price_per_unit": 3000,
+      "cost_rub": 186.0
+    },
+    {
+      "product": "груша",
+      "qty": 0.28,
+      "unit": "kg",
+      "price_per_unit": 220,
+      "cost_rub": 61.6
+    },
+    {
+      "product": "грецкие орехи",
+      "qty": 0.077,
+      "unit": "kg",
+      "price_per_unit": 1600,
+      "cost_rub": 123.2
+    },
+    {
+      "product": "мёд",
+      "qty": 0.028,
+      "unit": "kg",
+      "price_per_unit": 900,
+      "cost_rub": 25.2
+    },
+    {
+      "product": "треска (филе)",
+      "qty": 0.2,
+      "unit": "kg",
+      "price_per_unit": 875,
+      "cost_rub": 175.0
+    },
+    {
+      "product": "помидоры черри",
+      "qty": 0.12,
+      "unit": "kg",
+      "price_per_unit": 320,
+      "cost_rub": 38.4
+    },
+    {
+      "product": "фета",
+      "qty": 0.065,
+      "unit": "kg",
+      "price_per_unit": 1380,
+      "cost_rub": 89.7
+    },
+    {
+      "product": "оливки",
+      "qty": 0.02,
+      "unit": "kg",
+      "price_per_unit": 900,
+      "cost_rub": 18.0
+    },
+    {
+      "product": "каперсы",
+      "qty": 0.01,
+      "unit": "kg",
+      "price_per_unit": 1200,
+      "cost_rub": 12.0
+    },
+    {
+      "product": "рис басмати",
+      "qty": 0.07,
+      "unit": "kg",
+      "price_per_unit": 250,
+      "cost_rub": 17.5
+    },
+    {
+      "product": "говяжья печень",
+      "qty": 0.13,
+      "unit": "kg",
+      "price_per_unit": 700,
+      "cost_rub": 91.0
+    },
+    {
+      "product": "микс салат",
+      "qty": 0.1,
+      "unit": "kg",
+      "price_per_unit": 600,
+      "cost_rub": 60.0
+    },
+    {
+      "product": "гранат",
+      "qty": 0.11428571428571428,
+      "unit": "pcs",
+      "price_per_unit": 80,
+      "cost_rub": 9.14
+    },
+    {
+      "product": "тыквенные семечки",
+      "qty": 0.01,
+      "unit": "kg",
+      "price_per_unit": 1500,
+      "cost_rub": 15.0
+    },
+    {
+      "product": "лук репчатый",
+      "qty": 0.27,
+      "unit": "kg",
+      "price_per_unit": 40,
+      "cost_rub": 10.8
+    },
+    {
+      "product": "бальзамический уксус",
+      "qty": 5.0,
+      "unit": "ml",
+      "price_per_unit": 2.4,
+      "cost_rub": 12.0
+    },
+    {
+      "product": "овсяные хлопья",
+      "qty": 0.08,
+      "unit": "kg",
+      "price_per_unit": 60,
+      "cost_rub": 4.8
+    },
+    {
+      "product": "манго",
+      "qty": 0.17,
+      "unit": "kg",
+      "price_per_unit": 650,
+      "cost_rub": 110.5
+    },
+    {
+      "product": "кленовый сироп",
+      "qty": 18.0,
+      "unit": "ml",
+      "price_per_unit": 1.5,
+      "cost_rub": 27.0
+    },
+    {
+      "product": "финики",
+      "qty": 0.06,
+      "unit": "kg",
+      "price_per_unit": 580,
+      "cost_rub": 34.8
+    },
+    {
+      "product": "чечевица красная",
+      "qty": 0.09,
+      "unit": "kg",
+      "price_per_unit": 310,
+      "cost_rub": 27.9
+    },
+    {
+      "product": "тыква",
+      "qty": 0.3,
+      "unit": "kg",
+      "price_per_unit": 80,
+      "cost_rub": 24.0
+    },
+    {
+      "product": "морковь",
+      "qty": 0.21,
+      "unit": "kg",
+      "price_per_unit": 50,
+      "cost_rub": 10.5
+    },
+    {
+      "product": "карри (смесь специй)",
+      "qty": 0.003,
+      "unit": "kg",
+      "price_per_unit": 1500,
+      "cost_rub": 4.5
+    },
+    {
+      "product": "хлебцы цельнозерновые",
+      "qty": 2.4,
+      "unit": "pcs",
+      "price_per_unit": 35,
+      "cost_rub": 84.0
+    },
+    {
+      "product": "белые грибы (заморозка)",
+      "qty": 0.35,
+      "unit": "kg",
+      "price_per_unit": 640,
+      "cost_rub": 224.0
+    },
+    {
+      "product": "баклажан",
+      "qty": 0.22,
+      "unit": "kg",
+      "price_per_unit": 180,
+      "cost_rub": 39.6
+    },
+    {
+      "product": "чеснок",
+      "qty": 0.1,
+      "unit": "pcs",
+      "price_per_unit": 30,
+      "cost_rub": 3.0
+    },
+    {
+      "product": "укроп",
+      "qty": 0.3333333333333333,
+      "unit": "pcs",
+      "price_per_unit": 30,
+      "cost_rub": 10.0
+    },
+    {
+      "product": "томаты в собственном соку",
+      "qty": 0.2,
+      "unit": "kg",
+      "price_per_unit": 175,
+      "cost_rub": 35.0
+    },
+    {
+      "product": "хлеб чиабатта",
+      "qty": 0.11,
+      "unit": "kg",
+      "price_per_unit": 420,
+      "cost_rub": 46.2
+    },
+    {
+      "product": "банан",
+      "qty": 0.12,
+      "unit": "kg",
+      "price_per_unit": 115,
+      "cost_rub": 13.8
+    },
+    {
+      "product": "паста (пенне)",
+      "qty": 0.09,
+      "unit": "kg",
+      "price_per_unit": 330,
+      "cost_rub": 29.7
+    },
+    {
+      "product": "форель (филе)",
+      "qty": 0.14,
+      "unit": "kg",
+      "price_per_unit": 1180,
+      "cost_rub": 165.2
+    },
+    {
+      "product": "брокколи",
+      "qty": 0.15,
+      "unit": "kg",
+      "price_per_unit": 300,
+      "cost_rub": 45.0
+    },
+    {
+      "product": "сливки 20%",
+      "qty": 0.06,
+      "unit": "kg",
+      "price_per_unit": 360,
+      "cost_rub": 21.6
+    },
+    {
+      "product": "куриная грудка (охлаждённая)",
+      "qty": 0.12,
+      "unit": "kg",
+      "price_per_unit": 550,
+      "cost_rub": 66.0
+    },
+    {
+      "product": "шпинат",
+      "qty": 0.04,
+      "unit": "kg",
+      "price_per_unit": 700,
+      "cost_rub": 28.0
+    },
+    {
+      "product": "курага",
+      "qty": 0.03,
+      "unit": "kg",
+      "price_per_unit": 830,
+      "cost_rub": 24.9
+    },
+    {
+      "product": "яблоко",
+      "qty": 0.15,
+      "unit": "kg",
+      "price_per_unit": 95,
+      "cost_rub": 14.25
+    },
+    {
+      "product": "чернослив",
+      "qty": 0.025,
+      "unit": "kg",
+      "price_per_unit": 720,
+      "cost_rub": 18.0
+    },
+    {
+      "product": "фасоль белая (консерв.)",
+      "qty": 0.1,
+      "unit": "kg",
+      "price_per_unit": 350,
+      "cost_rub": 35.0
+    },
+    {
+      "product": "цуккини",
+      "qty": 0.2,
+      "unit": "kg",
+      "price_per_unit": 250,
+      "cost_rub": 50.0
+    },
+    {
+      "product": "томатный соус (passata)",
+      "qty": 0.1,
+      "unit": "kg",
+      "price_per_unit": 220,
+      "cost_rub": 22.0
+    },
+    {
+      "product": "капуста белокочанная",
+      "qty": 0.3,
+      "unit": "kg",
+      "price_per_unit": 40,
+      "cost_rub": 12.0
+    },
+    {
+      "product": "молоко 3.2%",
+      "qty": 0.2,
+      "unit": "kg",
+      "price_per_unit": 80,
+      "cost_rub": 16.0
+    },
+    {
+      "product": "маскарпоне",
+      "qty": 0.06,
+      "unit": "kg",
+      "price_per_unit": 920,
+      "cost_rub": 55.2
+    },
+    {
+      "product": "рикотта",
+      "qty": 0.08,
+      "unit": "kg",
+      "price_per_unit": 560,
+      "cost_rub": 44.8
+    },
+    {
+      "product": "персик",
+      "qty": 0.08,
+      "unit": "kg",
+      "price_per_unit": 440,
+      "cost_rub": 35.2
+    },
+    {
+      "product": "утиная грудка",
+      "qty": 0.15,
+      "unit": "kg",
+      "price_per_unit": 1300,
+      "cost_rub": 195.0
+    },
+    {
+      "product": "картофель (молодой)",
+      "qty": 0.18,
+      "unit": "kg",
+      "price_per_unit": 130,
+      "cost_rub": 23.4
+    },
+    {
+      "product": "вишня (заморозка)",
+      "qty": 0.08,
+      "unit": "kg",
+      "price_per_unit": 440,
+      "cost_rub": 35.2
+    },
+    {
+      "product": "красное вино (для соуса)",
+      "qty": 30.0,
+      "unit": "ml",
+      "price_per_unit": 0.6,
+      "cost_rub": 18.0
+    },
+    {
+      "product": "тунец (стейк)",
+      "qty": 0.13,
+      "unit": "kg",
+      "price_per_unit": 1700,
+      "cost_rub": 221.0
+    },
+    {
+      "product": "эдамаме (бобы)",
+      "qty": 0.06,
+      "unit": "kg",
+      "price_per_unit": 750,
+      "cost_rub": 45.0
+    },
+    {
+      "product": "гранола",
+      "qty": 0.05,
+      "unit": "kg",
+      "price_per_unit": 1000,
+      "cost_rub": 50.0
+    },
+    {
+      "product": "тальятелле",
+      "qty": 0.08,
+      "unit": "kg",
+      "price_per_unit": 560,
+      "cost_rub": 44.8
+    },
+    {
+      "product": "говядина (мякоть)",
+      "qty": 0.13,
+      "unit": "kg",
+      "price_per_unit": 1100,
+      "cost_rub": 143.0
+    },
+    {
+      "product": "хумус",
+      "qty": 0.08,
+      "unit": "kg",
+      "price_per_unit": 440,
+      "cost_rub": 35.2
+    }
+  ]
+}
