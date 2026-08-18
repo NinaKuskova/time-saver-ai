@@ -1,0 +1,41 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Node (на случай, если появятся)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env / secrets
+.env
+.env.local
+
+# Локальные артефакты и бэкапы
+site.zip.rar
+*.zip
+*.rar
+*.7z
+index_backup.html
+*.bak
+
+# Отчёты, которые не нужны в репо (PDF/HTML-черновики)
+seo-audit-time-saver.pdf
+habr_789012.html
+
+# Логи
+*.log
