@@ -148,7 +148,7 @@ time-saver-ai/
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/your-username/time-saver-ai.git
+git clone https://github.com/NinaKuskova/time-saver-ai.git
 cd time-saver-ai
 
 # 2. Открыть в Claude Code
