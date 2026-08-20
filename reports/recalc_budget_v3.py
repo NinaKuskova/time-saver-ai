@@ -37,7 +37,7 @@ else:
 ROOT = Path(__file__).resolve().parents[1]
 JS = ROOT / "meal-plans" / "meal-plan-budget.json"
 MD_OUT = ROOT / "meal-plans" / "meal-plan-budget.md"
-REPORT = ROOT / "reports" / "2026-08-15_budget-recalc-v3.md"
+REPORT = ROOT / "reports" / "recalc_budget_report.md"
 
 
 # --------------------------------------------------------------------------- #
@@ -325,7 +325,7 @@ def main():
                     plan["days"][day_idx]["meals"][meal_idx]["ingredients"][ing_idx]["cost_rub"] = r["cost"]
 
     plan["meta"]["version"] = "3.0 (точный пересчёт по прямым ценам ₽/кг и ₽/шт)"
-    plan["meta"]["recalculated_at"] = "2026-08-15"
+    plan["meta"]["recalculated_at"] = "2026-08-20"
     plan["meta"]["recalc_script"] = "reports/recalc_budget_v3.py"
     plan["meta"]["budget_actual_rub_meals"] = round(week_total_meals, 2)
     plan["meta"]["budget_actual_rub_shopping"] = round(week_total_shop, 2)

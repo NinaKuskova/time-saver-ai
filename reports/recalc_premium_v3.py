@@ -34,7 +34,7 @@ else:
 ROOT = Path(__file__).resolve().parents[1]
 JS = ROOT / "meal-plans" / "meal-plan-premium.json"
 MD_OUT = ROOT / "meal-plans" / "meal-plan-premium.md"
-REPORT = ROOT / "reports" / "2026-08-15_premium-recalc-v3.md"
+REPORT = ROOT / "reports" / "recalc_premium_report.md"
 
 
 # --------------------------------------------------------------------------- #
